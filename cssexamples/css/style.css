@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
-   background-color: rgb(236, 236, 236);
+    background-image: url("../images/SheetMusic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
 }
 
 header{
-    background: linear-gradient(to right, #fa7ea1, #b2303d);
+    background: rgba(250, 126, 161, 0.844);
      width:960px;
     padding: 20px;
     margin-top: -7px;
@@ -18,8 +22,9 @@ header{
 }
 
 main{
-    background: linear-gradient(to right, #fa7ea1, #b2303d);
+    background: rgba(250, 126, 161, 0.812); 
     width:960px;
+    height: 1350px;
     padding-top:20px;
     padding-bottom:20px;
     padding-left:20px;
@@ -29,6 +34,22 @@ main{
     border-top: 5px solid black;
     border-bottom: 5px solid black;
     margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    background: rgba(250, 126, 161, 0.816);
+    width:960px;
+    padding: 20px;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 h1{
@@ -43,13 +64,15 @@ h2{
     text-align: center;
     font-weight: 100;
     font-style: italic;
+    font-size: larger;
 }
 
 h3{
     font-family: "Bungee", sans-serif;
     text-align: center;
     font-weight: 100;
-    font-style: italic; 
+    font-style: italic;
+    font-size: larger; 
 }
 
 h4{
@@ -57,6 +80,7 @@ h4{
     text-align: left;
     font-weight: 100;
     font-style: italic; 
+    font-size: larger; 
 }
 
 h5{
@@ -64,13 +88,16 @@ h5{
     text-align: left;
     font-weight: 100;
     font-style: italic; 
+    font-size: larger; 
 }
 
 h6{
     font-family: "Bungee", sans-serif;
     text-align: left;
     font-weight: 100;
-    font-style: italic; 
+    font-style: italic;
+    font-size: larger; 
+    text-align: center;
 }
 
 a:hover{
@@ -81,14 +108,34 @@ a{
     color: black;
 }
 
+img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    margin: 20px auto;
+    display: block;
+}
+
+img.gallery {
+    width: 400px;
+    border: 2px solid #fa7ea1;
+}
+
+.imageGallery{
+    width: 375px; 
+}
+.green{
+    color: darkred;
+}
+
+.graybackground{
+    background-color: rgba(139, 0, 0, 0.219);
+}
+
 nav{
     width: 400px;
     margin: auto;
     border-bottom: black 1px solid;
-}
-
-nav ul{
-
 }
 
 nav ul li{
@@ -105,7 +152,4 @@ nav ul li a{
     font-size: 20px;
     font-weight: 900;
     color: black;
-}
-
-nav ul li a:hover{
 }
